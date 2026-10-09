@@ -3,3 +3,4 @@
 Privacy policies for our Discord bots.
 
 - **SimpleHelper:** [Privacy Policy](simplehelper/privacy)
+- **PandaPong:** [Privacy Policy](pandapong/privacy)
