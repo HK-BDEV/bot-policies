@@ -2,7 +2,7 @@
 
 _Last updated: 9 October 2026_
 
-PandaPong ("the bot") is a Discord bot for players of the EPIC RPG game bot. It sends cooldown reminders, event pings and stats, and runs giveaways. This policy explains what data the bot uses, what it stores and why.
+PandaPong ("the bot") is a Discord bot for players of the EPIC RPG game bot. It sends cooldown reminders, event pings and stats. This policy explains what data the bot uses, what it stores and why.
 
 ## What the bot reads
 - **EPIC RPG commands typed by users** (for example `rpg hunt`) and **EPIC RPG's replies**, to know which command was used, when to remind the user, and to count daily command usage.
@@ -23,7 +23,6 @@ The bot keeps the following in its database on our server:
 | Tracked inventory amounts (rubies, seeds) | For `rinventory` | Until the user asks for deletion |
 | Horse breeding attempts and optional proof links | For horse tracking | Until the user asks for deletion |
 | Server settings (channels and roles for pings) | To configure the bot per server | Until the server changes them or removes the bot |
-| Scheduled giveaways and announcements | To post them at the right time | Deleted after posting, unless set to repeat |
 
 No passwords, emails, payment details or message history are stored.
 
