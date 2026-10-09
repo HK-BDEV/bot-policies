@@ -8,7 +8,6 @@ PandaPong ("the bot") is a Discord bot for players of the EPIC RPG game bot. It 
 - **EPIC RPG commands typed by users** (for example `rpg hunt`) and **EPIC RPG's replies**, to know which command was used, when to remind the user, and to count daily command usage.
 - **EPIC RPG event messages**, to ping the server's event roles.
 - **Messages that start with the bot's prefix** (`r`), so it can respond to commands.
-- **Member joins** in our own community server (Bamboo Forest) only, to re-apply giveaway bans to members who left and rejoined.
 
 Message content is processed to run these features. The bot does **not** keep a log or copy of users' messages.
 
@@ -23,7 +22,6 @@ The bot keeps the following in its database on our server:
 | Daily EPIC RPG command counts | For `rstats`, leaderboards and usage stats | Kept for all-time stats, deleted on request |
 | Tracked inventory amounts (rubies, seeds) | For `rinventory` | Until the user asks for deletion |
 | Horse breeding attempts and optional proof links | For horse tracking | Until the user asks for deletion |
-| Giveaway warnings (reason, moderator, time) | To enforce giveaway rules in Bamboo Forest | Until removed by staff |
 | Server settings (channels and roles for pings) | To configure the bot per server | Until the server changes them or removes the bot |
 | Scheduled giveaways and announcements | To post them at the right time | Deleted after posting, unless set to repeat |
 
